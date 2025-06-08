@@ -1,0 +1,16 @@
+D:\Supportly\Supportly.Application\bin\Debug\net9.0\Supportly.Application.deps.json
+D:\Supportly\Supportly.Application\bin\Debug\net9.0\Supportly.Application.dll
+D:\Supportly\Supportly.Application\bin\Debug\net9.0\Supportly.Application.pdb
+D:\Supportly\Supportly.Application\bin\Debug\net9.0\Supportly.Domain.dll
+D:\Supportly\Supportly.Application\bin\Debug\net9.0\Supportly.Domain.pdb
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.csproj.AssemblyReference.cache
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.AssemblyInfoInputs.cache
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.AssemblyInfo.cs
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.csproj.CoreCompileInputs.cache
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.sourcelink.json
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportl.A187F621.Up2Date
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.dll
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\refint\Supportly.Application.dll
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\Supportly.Application.pdb
+D:\Supportly\Supportly.Application\obj\Debug\net9.0\ref\Supportly.Application.dll

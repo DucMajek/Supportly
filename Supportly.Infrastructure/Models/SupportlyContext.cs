@@ -61,7 +61,9 @@ public partial class SupportlyContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.Description).HasColumnName("description");
-            entity.Property(e => e.IsDeleted).HasColumnName("is_deleted");
+            entity.Property(e => e.IsDeleted)
+                .HasDefaultValue(false)
+                .HasColumnName("is_deleted");
             entity.Property(e => e.PriorityId).HasColumnName("priority_id");
             entity.Property(e => e.StatusId).HasColumnName("status_id");
             entity.Property(e => e.Title)
@@ -75,27 +77,22 @@ public partial class SupportlyContext : DbContext
 
             entity.HasOne(d => d.Category).WithMany(p => p.Tickets)
                 .HasForeignKey(d => d.CategoryId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("Ticket_TicketCategory");
 
             entity.HasOne(d => d.Priority).WithMany(p => p.Tickets)
                 .HasForeignKey(d => d.PriorityId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("Ticket_Priority");
 
             entity.HasOne(d => d.Status).WithMany(p => p.Tickets)
                 .HasForeignKey(d => d.StatusId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("Ticket_Status");
 
             entity.HasOne(d => d.UserAssignedNavigation).WithMany(p => p.TicketUserAssignedNavigations)
                 .HasForeignKey(d => d.UserAssigned)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Ticket_User_Assigned");
 
             entity.HasOne(d => d.UserCreatedNavigation).WithMany(p => p.TicketUserCreatedNavigations)
                 .HasForeignKey(d => d.UserCreated)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Ticket_User_Created");
         });
 
@@ -112,7 +109,9 @@ public partial class SupportlyContext : DbContext
             entity.Property(e => e.FilePath)
                 .HasMaxLength(255)
                 .HasColumnName("file_path");
-            entity.Property(e => e.IsDeleted).HasColumnName("is_deleted");
+            entity.Property(e => e.IsDeleted)
+                .HasDefaultValue(false)
+                .HasColumnName("is_deleted");
             entity.Property(e => e.TicketId).HasColumnName("ticket_id");
             entity.Property(e => e.UploadedAt)
                 .HasColumnType("datetime")
@@ -120,7 +119,6 @@ public partial class SupportlyContext : DbContext
 
             entity.HasOne(d => d.Ticket).WithMany(p => p.TicketAttachments)
                 .HasForeignKey(d => d.TicketId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("TicketAttachment_Ticket");
         });
 
@@ -151,17 +149,17 @@ public partial class SupportlyContext : DbContext
             entity.Property(e => e.CreatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
-            entity.Property(e => e.IsDeleted).HasColumnName("is_deleted");
+            entity.Property(e => e.IsDeleted)
+                .HasDefaultValue(false)
+                .HasColumnName("is_deleted");
             entity.Property(e => e.TicketId).HasColumnName("ticket_id");
 
             entity.HasOne(d => d.Author).WithMany(p => p.TicketComments)
                 .HasForeignKey(d => d.AuthorId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("TicketComment_User");
 
             entity.HasOne(d => d.Ticket).WithMany(p => p.TicketComments)
                 .HasForeignKey(d => d.TicketId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("TicketComment_Ticket");
         });
 
@@ -202,7 +200,9 @@ public partial class SupportlyContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .HasColumnName("email");
-            entity.Property(e => e.IsDeleted).HasColumnName("is_deleted");
+            entity.Property(e => e.IsDeleted)
+                .HasDefaultValue(false)
+                .HasColumnName("is_deleted");
             entity.Property(e => e.Name)
                 .HasMaxLength(50)
                 .HasColumnName("name");
@@ -211,7 +211,6 @@ public partial class SupportlyContext : DbContext
 
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("User_Role");
         });
 

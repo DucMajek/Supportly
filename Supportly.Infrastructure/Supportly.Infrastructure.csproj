@@ -23,4 +23,8 @@
         <ProjectReference Include="..\Supportly.Application\Supportly.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Repositories\" />
+    </ItemGroup>
+
 </Project>

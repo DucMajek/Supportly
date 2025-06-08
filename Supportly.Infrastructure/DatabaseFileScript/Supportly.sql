@@ -1,83 +1,83 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2025-06-07 16:03:51.664
+-- Last modification date: 2025-06-08 23:10:01.619
 
 -- tables
 -- Table: Role
 CREATE TABLE Role (
     role_id int  NOT NULL IDENTITY,
-    role_name nvarchar(20)  NOT NULL,
+    role_name nvarchar(20)  NULL,
     CONSTRAINT Role_pk PRIMARY KEY  (role_id)
 );
 
 -- Table: Ticket
 CREATE TABLE Ticket (
     ticket_id int  NOT NULL IDENTITY,
-    title nvarchar(150)  NOT NULL,
-    description nvarchar(max)  NOT NULL,
-    created_at datetime  NOT NULL,
-    updated_at datetime  NOT NULL,
-    user_created int  NOT NULL,
-    user_assigned int  NOT NULL,
-    category_id int  NOT NULL,
-    priority_id int  NOT NULL,
-    status_id int  NOT NULL,
-    is_deleted bit  NOT NULL DEFAULT 0,
+    title nvarchar(150)  NULL,
+    description nvarchar(max)  NULL,
+    created_at datetime  NULL,
+    updated_at datetime  NULL,
+    user_created int  NULL,
+    user_assigned int  NULL,
+    category_id int  NULL,
+    priority_id int  NULL,
+    status_id int  NULL,
+    is_deleted bit  NULL DEFAULT 0,
     CONSTRAINT Ticket_pk PRIMARY KEY  (ticket_id)
 );
 
 -- Table: TicketAttachment
 CREATE TABLE TicketAttachment (
     attachment_id int  NOT NULL IDENTITY,
-    ticket_id int  NOT NULL,
-    file_name nvarchar(255)  NOT NULL,
-    file_path nvarchar(255)  NOT NULL,
-    uploaded_at datetime  NOT NULL,
-    is_deleted bit  NOT NULL DEFAULT 0,
+    ticket_id int  NULL,
+    file_name nvarchar(255)  NULL,
+    file_path nvarchar(255)  NULL,
+    uploaded_at datetime  NULL,
+    is_deleted bit  NULL DEFAULT 0,
     CONSTRAINT TicketAttachment_pk PRIMARY KEY  (attachment_id)
 );
 
 -- Table: TicketCategory
 CREATE TABLE TicketCategory (
     category_id int  NOT NULL IDENTITY,
-    name nvarchar(100)  NOT NULL,
-    description nvarchar(255)  NOT NULL,
+    name nvarchar(100)  NULL,
+    description nvarchar(255)  NULL,
     CONSTRAINT TicketCategory_pk PRIMARY KEY  (category_id)
 );
 
 -- Table: TicketComment
 CREATE TABLE TicketComment (
     comment_id int  NOT NULL IDENTITY,
-    ticket_id int  NOT NULL,
-    author_id int  NOT NULL,
-    content nvarchar(max)  NOT NULL,
-    created_at datetime  NOT NULL,
-    is_deleted bit  NOT NULL DEFAULT 0,
+    ticket_id int  NULL,
+    author_id int  NULL,
+    content nvarchar(max)  NULL,
+    created_at datetime  NULL,
+    is_deleted bit  NULL DEFAULT 0,
     CONSTRAINT TicketComment_pk PRIMARY KEY  (comment_id)
 );
 
 -- Table: TicketPriority
 CREATE TABLE TicketPriority (
     priority_id int  NOT NULL IDENTITY,
-    name nvarchar(20)  NOT NULL,
+    name nvarchar(20)  NULL,
     CONSTRAINT TicketPriority_pk PRIMARY KEY  (priority_id)
 );
 
 -- Table: TicketStatus
 CREATE TABLE TicketStatus (
     status_id int  NOT NULL IDENTITY,
-    name nvarchar(20)  NOT NULL,
+    name nvarchar(20)  NULL,
     CONSTRAINT TicketStatus_pk PRIMARY KEY  (status_id)
 );
 
 -- Table: User
 CREATE TABLE "User" (
     user_id int  NOT NULL IDENTITY,
-    name nvarchar(50)  NOT NULL,
-    email nvarchar(100)  NOT NULL,
-    password_hash nvarchar(max)  NOT NULL,
-    created_at datetime  NOT NULL,
-    is_deleted bit  NOT NULL DEFAULT 0,
-    role_id int  NOT NULL,
+    name nvarchar(50)  NULL,
+    email nvarchar(100)  NULL,
+    password_hash nvarchar(max)  NULL,
+    created_at datetime  NULL,
+    is_deleted bit  NULL DEFAULT 0,
+    role_id int  NULL,
     CONSTRAINT User_pk PRIMARY KEY  (user_id)
 );
 

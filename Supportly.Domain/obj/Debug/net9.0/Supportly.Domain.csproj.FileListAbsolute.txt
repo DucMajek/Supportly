@@ -1,0 +1,12 @@
+D:\Supportly\Supportly.Domain\bin\Debug\net9.0\Supportly.Domain.deps.json
+D:\Supportly\Supportly.Domain\bin\Debug\net9.0\Supportly.Domain.dll
+D:\Supportly\Supportly.Domain\bin\Debug\net9.0\Supportly.Domain.pdb
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.AssemblyInfoInputs.cache
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.AssemblyInfo.cs
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.csproj.CoreCompileInputs.cache
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.sourcelink.json
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.dll
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\refint\Supportly.Domain.dll
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.pdb
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\ref\Supportly.Domain.dll

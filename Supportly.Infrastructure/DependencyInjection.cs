@@ -11,7 +11,7 @@ namespace Supportly.Infrastructure
         {
             services.AddDbContext<SupportlyContext>(options => 
                 options.UseSqlServer(
-                    configurationManager.GetConnectionString("DefaultConnection"),
+                    configurationManager.GetConnectionString("DBConnection"),
                     b => b.MigrationsAssembly(typeof(SupportlyContext).Assembly)
                 ));
             return services;
