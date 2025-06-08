@@ -1,0 +1,14 @@
+D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Infrastructure.deps.json
+D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Infrastructure.runtimeconfig.json
+D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Infrastructure.dll
+D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Infrastructure.pdb
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.csproj.AssemblyReference.cache
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.AssemblyInfoInputs.cache
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.AssemblyInfo.cs
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.dll
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\refint\Supportly.Infrastructure.dll
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.pdb
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.genruntimeconfig.cache
+D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\ref\Supportly.Infrastructure.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C2K9GTwgucI=",
+  "success": true,
+  "projectFilePath": "D:\\Supportly\\Supportly.Application\\Supportly.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.5.25277.114\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.5.25277.114.nupkg.sha512"
+  ],
+  "logs": []
+}
