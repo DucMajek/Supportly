@@ -1598,30 +1598,6 @@
             "rid": "win"
           }
         }
-      },
-      "Supportly.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0-preview.5.25277.114",
-          "Supportly.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Supportly.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Supportly.Application.dll": {}
-        }
-      },
-      "Supportly.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Supportly.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Supportly.Domain.dll": {}
-        }
       }
     }
   },
@@ -4727,16 +4703,6 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Supportly.Application/1.0.0": {
-      "type": "project",
-      "path": "../Supportly.Application/Supportly.Application.csproj",
-      "msbuildProject": "../Supportly.Application/Supportly.Application.csproj"
-    },
-    "Supportly.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Supportly.Domain/Supportly.Domain.csproj",
-      "msbuildProject": "../Supportly.Domain/Supportly.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4744,8 +4710,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.0-preview.5.25277.114",
-      "Supportly.Application >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.0-preview.5.25277.114"
     ]
   },
   "packageFolders": {
@@ -4779,11 +4744,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "D:\\Supportly\\Supportly.Application\\Supportly.Application.csproj": {
-              "projectPath": "D:\\Supportly\\Supportly.Application\\Supportly.Application.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

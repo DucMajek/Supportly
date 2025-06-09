@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Supportly.Application.Services;
 
 namespace Supportly.Application
 {
@@ -6,6 +7,7 @@ namespace Supportly.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
+            services.AddScoped<UserService>();
             return services;
         }
     }    

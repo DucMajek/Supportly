@@ -34,6 +34,9 @@
             "projectReferences": {
               "D:\\Supportly\\Supportly.Domain\\Supportly.Domain.csproj": {
                 "projectPath": "D:\\Supportly\\Supportly.Domain\\Supportly.Domain.csproj"
+              },
+              "D:\\Supportly\\Supportly.Infrastructure\\Supportly.Infrastructure.csproj": {
+                "projectPath": "D:\\Supportly\\Supportly.Infrastructure\\Supportly.Infrastructure.csproj"
               }
             }
           }
@@ -171,11 +174,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\Supportly\\Supportly.Application\\Supportly.Application.csproj": {
-                "projectPath": "D:\\Supportly\\Supportly.Application\\Supportly.Application.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

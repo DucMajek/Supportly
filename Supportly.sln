@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supportly.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supportly.Presentation", "Supportly.Presentation\Supportly.Presentation.csproj", "{ED448C2D-6D14-4CCB-8C42-8CC9B6AA0C89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supportly.Tests", "Supportly.Tests\Supportly.Tests.csproj", "{19879312-30CB-4928-8FFF-74B3A43A607D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{ED448C2D-6D14-4CCB-8C42-8CC9B6AA0C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED448C2D-6D14-4CCB-8C42-8CC9B6AA0C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED448C2D-6D14-4CCB-8C42-8CC9B6AA0C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19879312-30CB-4928-8FFF-74B3A43A607D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19879312-30CB-4928-8FFF-74B3A43A607D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19879312-30CB-4928-8FFF-74B3A43A607D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19879312-30CB-4928-8FFF-74B3A43A607D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

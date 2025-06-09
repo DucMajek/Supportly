@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Supportly.Infrastructure.Models;
+using Supportly.Infrastructure.Repositories;
 
 namespace Supportly.Infrastructure
 {
@@ -14,6 +15,7 @@ namespace Supportly.Infrastructure
                     configurationManager.GetConnectionString("DBConnection"),
                     b => b.MigrationsAssembly(typeof(SupportlyContext).Assembly)
                 ));
+            services.AddScoped<UserRepository>();
             return services;
         }
     }

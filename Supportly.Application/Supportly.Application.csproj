@@ -11,9 +11,6 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Supportly.Domain\Supportly.Domain.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Interfaces\" />
-      <Folder Include="Services\" />
+        <ProjectReference Include="..\Supportly.Infrastructure\Supportly.Infrastructure.csproj" />
     </ItemGroup>
 </Project>
