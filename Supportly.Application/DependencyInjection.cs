@@ -8,6 +8,7 @@ namespace Supportly.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<UserService>();
+            services.AddScoped<AuthenticationService>();
             return services;
         }
     }    

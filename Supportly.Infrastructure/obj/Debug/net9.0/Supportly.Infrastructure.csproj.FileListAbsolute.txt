@@ -13,8 +13,3 @@ D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.
 D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.genruntimeconfig.cache
 D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\ref\Supportly.Infrastructure.dll
 D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportly.Infrastructure.sourcelink.json
-D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Application.dll
-D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Domain.dll
-D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Application.pdb
-D:\Supportly\Supportly.Infrastructure\bin\Debug\net9.0\Supportly.Domain.pdb
-D:\Supportly\Supportly.Infrastructure\obj\Debug\net9.0\Supportl.648A492D.Up2Date

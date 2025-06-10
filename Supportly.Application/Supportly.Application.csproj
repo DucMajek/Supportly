@@ -7,10 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.5" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.5.25277.114" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.4" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.0" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Supportly.Domain\Supportly.Domain.csproj" />
         <ProjectReference Include="..\Supportly.Infrastructure\Supportly.Infrastructure.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Middleware\" />
     </ItemGroup>
 </Project>

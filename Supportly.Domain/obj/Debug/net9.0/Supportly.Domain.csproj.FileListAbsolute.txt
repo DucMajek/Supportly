@@ -10,3 +10,4 @@ D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.dll
 D:\Supportly\Supportly.Domain\obj\Debug\net9.0\refint\Supportly.Domain.dll
 D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.pdb
 D:\Supportly\Supportly.Domain\obj\Debug\net9.0\ref\Supportly.Domain.dll
+D:\Supportly\Supportly.Domain\obj\Debug\net9.0\Supportly.Domain.csproj.AssemblyReference.cache
