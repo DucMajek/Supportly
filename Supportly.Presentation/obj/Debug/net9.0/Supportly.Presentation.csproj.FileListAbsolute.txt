@@ -92,3 +92,6 @@ D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Application.pdb
 D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Infrastructure.pdb
 D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Domain.pdb
 D:\Supportly\Supportly.Presentation\obj\Debug\net9.0\Supportly.Presentation.sourcelink.json
+D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Client\package-lock.json
+D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Client\package.json
+D:\Supportly\Supportly.Presentation\bin\Debug\net9.0\Supportly.Client\public\manifest.json

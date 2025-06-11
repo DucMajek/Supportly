@@ -17,7 +17,4 @@
         <ProjectReference Include="..\Supportly.Domain\Supportly.Domain.csproj" />
         <ProjectReference Include="..\Supportly.Infrastructure\Supportly.Infrastructure.csproj" />
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Middleware\" />
-    </ItemGroup>
 </Project>
